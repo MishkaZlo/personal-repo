@@ -34,8 +34,6 @@ class NewsPublication extends Publication
     }
 }
 
-;
-
 class ArticlePublication extends Publication
 {
     public function printItem()
