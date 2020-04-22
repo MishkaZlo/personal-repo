@@ -23,7 +23,7 @@
 			$error = true;
 		};
 		if ($to == "" || !preg_match("/@/", $to)){
-			$error_to = "Некоректно введен имайл получателяя";
+			$error_to = "Некоректно введен имайл получателяя!";
 			$error = true;
 		};	
 		if (strlen($subject) == 0 ){
