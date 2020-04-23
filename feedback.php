@@ -1,4 +1,5 @@
 <?php
+//сессии 222
 	session_start();
 	if(isset($_POST["send"])){
 
